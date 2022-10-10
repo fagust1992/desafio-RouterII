@@ -1,13 +1,95 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.menu {
+  background-color: rgb(75, 75, 75);
+  height: 80px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.select {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.boton {
+  margin-top: 5px;
+  background: grey;
+}
+.img {
+  width: 300px;
+  height: 300px;
+}
+.col {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  border: 1px solid gray;
+}
+.ul {
+  display: none;
+}
+.nav-item a {
+  text-decoration: none;
+}
+.active {
+  color: red;
+  font-weight: bold;
+}
+.carta-padre {
+  width: 500px;
+  margin: auto;
+}
+.padre {
+  height: 400px;
+  position: relative;
+  top: 100px;
+}
+.contenedor-form {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(75, 75, 75);
+  height: 80px;
+  position: relative;
+  top: 100px;
+}
+.footer h2 {
+  margin-top: 25px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: auto;
+}
+.col-home {
+  border: none;
+}
+@media only screen and (max-width: 700px) {
+  .carta-padre {
+    width: 400px;
+    margin: auto;
+  }
+  .img {
+    width: 200px;
+    height: 300px;
+  }
 }
